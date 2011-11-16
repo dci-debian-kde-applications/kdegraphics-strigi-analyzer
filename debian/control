@@ -26,15 +26,14 @@ Description: graphics file format plugins for Strigi Desktop Search
  about several document and graphic file formats.
  .
  Strigi analyzers are included for:
-  * DirectDraw Surface files (*.dds)
+#  * DirectDraw Surface files (*.dds)
   * Device independent documents (DVI)
-  * PostScript documents (PS)
-  * EXR files (*.exr)
-  * Portable Anymap Format (PNM) files
-  * Digital camera raw images
-  * SGI Images (RGB)
+#  * EXR files (*.exr)
+#  * Portable Anymap Format (PNM) files
+#  * Digital camera raw images
+#  * SGI Images (RGB)
   * Tagged Image File Format (TIFF) files
-  * Open XML Paper Specification (OpenXPS) files
+#Tagged  * Open XML Paper Specification (OpenXPS) files
  .
  This package is part of the KDE graphics module.
 
