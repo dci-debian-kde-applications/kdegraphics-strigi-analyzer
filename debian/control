@@ -1,0 +1,42 @@
+Source: kdegraphics-strigi-analyzer
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Harald Sitter <apachelogger@ubuntu.com>
+Build-Depends: cmake,
+               debhelper (>= 7.3.16),
+               kde-sc-dev-latest (>= 4:4.7.1),
+               kdelibs5-dev (>= 4:4.7),
+               libstreamanalyzer-dev (>= 0.6.3),
+               libstreams-dev (>= 0.6.3),
+               libtiff4-dev,
+               pkg-kde-tools (>= 0.12)
+Standards-Version: 3.9.2
+Homepage: http://www.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdegraphics-strigi-analyzer
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdegraphics-strigi-analyzer
+
+Package: kdegraphics-strigi-analyzer
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Replaces: kdegraphics-strigi-plugins (<< 4:4.6.90)
+Breaks: kdegraphics-strigi-plugins (<< 4:4.6.90)
+Description: graphics file format plugins for Strigi Desktop Search
+ These plugins allow Strigi Desktop Search to extract additional information
+ about several document and graphic file formats.
+ .
+ Strigi plugins are included for:
+  * Device independent documents (DVI)
+  * PostScript documents (PS)
+  * Digital camera raw images
+ .
+ This package is part of the KDE graphics module.
+
+Package: kdegraphics-strigi-plugins
+Architecture: all
+Depends: kdegraphics-mobipocket (>= 4:4.6.90),
+         kdegraphics-strigi-analyzer (>= 4:4.6.90),
+         kdegraphics-thumbnailers (>= 4:4.6.90),
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional package and can be safely removed after installation.
