@@ -37,11 +37,3 @@ Description: graphics file format plugins for Strigi Desktop Search
  .
  This package is part of the KDE graphics module.
 
-Package: kdegraphics-strigi-plugins
-Architecture: all
-Depends: kdegraphics-mobipocket (>= 4:4.6.90),
- kdegraphics-strigi-analyzer (>= 4:4.6.90),
- kdegraphics-thumbnailers (>= 4:4.6.90),
- ${misc:Depends}
-Description: transitional dummy package
- This is a transitional package and can be safely removed after installation.
