@@ -33,7 +33,7 @@ Description: graphics file format plugins for Strigi Desktop Search
 #  * Digital camera raw images
 #  * SGI Images (RGB)
   * Tagged Image File Format (TIFF) files
-#Tagged  * Open XML Paper Specification (OpenXPS) files
+#  * Open XML Paper Specification (OpenXPS) files
  .
  This package is part of the KDE graphics module.
 
