@@ -1,8 +1,8 @@
 Source: kdegraphics-strigi-analyzer
 Section: kde
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: Harald Sitter <apachelogger@ubuntu.com>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: cmake,
                debhelper (>= 7.3.16),
                kde-sc-dev-latest (>= 4:4.7.1),
@@ -13,8 +13,8 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdegraphics-strigi-analyzer
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdegraphics-strigi-analyzer
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdegraphics-strigi-analyzer.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdegraphics-strigi-analyzer.git
 
 Package: kdegraphics-strigi-analyzer
 Architecture: any
