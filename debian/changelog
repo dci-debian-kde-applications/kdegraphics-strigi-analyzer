@@ -1,9 +1,12 @@
-kdegraphics-strigi-analyzer (4:4.10.2-2) UNRELEASED; urgency=low
+kdegraphics-strigi-analyzer (4:4.10.3-1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Switch libtiff4-dev build dependency to libtiff-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 22 May 2013 17:51:30 +0200
+  [ Maximiliano Curia ]
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 May 2013 13:11:33 +0200
 
 kdegraphics-strigi-analyzer (4:4.10.2-1) experimental; urgency=low
 
