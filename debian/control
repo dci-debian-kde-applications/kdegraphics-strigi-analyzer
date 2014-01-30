@@ -5,10 +5,14 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11), libstreamanalyzer-dev (>= 0.6.3),
- libstreams-dev (>= 0.6.3), libtiff-dev,
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libstreamanalyzer-dev (>= 0.6.3),
+               libstreams-dev (>= 0.6.3),
+               libtiff-dev,
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdegraphics-strigi-analyzer.git
@@ -16,7 +20,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdegraphics-strigi-analyzer.git
 
 Package: kdegraphics-strigi-analyzer
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kdegraphics-strigi-plugins (<< 4:4.6.90)
 Breaks: kdegraphics-strigi-plugins (<< 4:4.6.90)
 Description: graphics file format plugins for Strigi Desktop Search
@@ -28,4 +32,3 @@ Description: graphics file format plugins for Strigi Desktop Search
   * Tagged Image File Format (TIFF) files
  .
  This package is part of the KDE graphics module.
-
