@@ -1,3 +1,9 @@
+kdegraphics-strigi-analyzer (4:4.14.1-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (4.14.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Sep 2014 20:15:44 +0200
+
 kdegraphics-strigi-analyzer (4:4.11.3-2) unstable; urgency=medium
 
   * Bump Standards-Version to 3.9.5, no changes needed.
