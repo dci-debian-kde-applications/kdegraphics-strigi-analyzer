@@ -1,10 +1,10 @@
-kdegraphics-strigi-analyzer (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+kdegraphics-strigi-analyzer (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   * New upstream release.
   * Debian merge: Remaining changes,
     Kept unstable line in watch file. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 01 Feb 2016 09:19:11 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 10:37:04 +0100
 
 kdegraphics-strigi-analyzer (4:15.12.0-1) experimental; urgency=medium
 
