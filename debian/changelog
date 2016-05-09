@@ -1,10 +1,17 @@
-kdegraphics-strigi-analyzer (4:15.12.0-2~1.gbp38b996) UNRELEASED; urgency=medium
+kdegraphics-strigi-analyzer (4:15.12.0-2~2.gbp673c12) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @673c121ad7df3ccfbac5ab58fcb308cd1dc9f351 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @38b996469ee1c07d138ce81b679ff081de9ff201 **
 
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:35:34 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 11:35:19 +0200
 
 kdegraphics-strigi-analyzer (4:15.12.0-1) experimental; urgency=medium
 
